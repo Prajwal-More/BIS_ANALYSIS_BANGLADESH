@@ -6,7 +6,17 @@ This repository contains the data analysis conducted on the Building Identificat
 ## Description
 A primary survey was conducted in Bangladesh to understand the building footprints for Rajshahi. More than 30,000 buildings spread over 5 wards in Rajshahi were surveyed for the project. Each building to be surveyed was allotted a unique PSU ID for its identification. The primary task in the data analysis was to identify the missing and duplicate PSU IDs at the initial stage. Upon completion of the survey, the data analysis was responsible for identifying building footprints and categories.
 
-## About Dataset
+## Understanding the Dataset
+The session provides a brief understanding of the columns in the dataset:
+- Response Code: Unique identification number given to each survey point.
+- Grid No (1): Name of Grid in which survey location was present.
+- Building Code (1): PSU ID for a building
+- Location of the Building (latitude): Latitude
+- Location of the Building (longitude): Longitude
+- What is the type of building?: Type of Building
+- Building Category
+- Uses of Holding
+- No of floors/storey of the building
 
 ## Analysis Methodology
 The analysis was conducted using Python programming language and various data analysis libraries such as pandas, NumPy, and Matplotlib. The following steps were performed during the analysis:
@@ -29,7 +39,7 @@ The analysis was conducted using Python programming language and various data an
 The analysis identified missing and duplicate PSU IDs at the initial stage, ensuring the integrity of the survey data. Additionally,the analysis provided insights into the distribution of building footprints and categories across Rajshahi, facilitating urban planning and development initiatives in the region.
 
 ## About Files in Repository
-
+- 
 
 ## Dependencies
 To run the analysis code, the following Python libraries are required:
