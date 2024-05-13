@@ -39,7 +39,11 @@ The analysis was conducted using Python programming language and various data an
 The analysis identified missing and duplicate PSU IDs at the initial stage, ensuring the integrity of the survey data. Additionally,the analysis provided insights into the distribution of building footprints and categories across Rajshahi, facilitating urban planning and development initiatives in the region.
 
 ## About Files in Repository
-- 
+- AllBuildingCenters locations (BIS).xlsx: Location of building according to PSU ID and Grid No
+- BIS_Analysis_Sheet.xlsx: Final analysis sheet
+- Final_BIS_Analysis.ipynb - Python code for analysis
+- Finding_missing_duplicate_PSUIDs_BIS_Analysis.ipynb - Python code for finding missing and duplicate PSU ID
+- response 2024-04-05 : Response sheet as recieved from client
 
 ## Dependencies
 To run the analysis code, the following Python libraries are required:
